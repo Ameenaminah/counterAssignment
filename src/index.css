@@ -1,0 +1,31 @@
+body {
+  /* text-align: center; */
+  background-color: #f29cf2;
+  margin: 5em;
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.count{
+  margin-top: 0;
+  font-size: 5rem;
+  color: rgb(171, 47, 171);
+}
+.icons-container {
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: 2em;
+}
+.icon {
+  border: 2px solid black;
+  padding: 1em;
+  background-color: rgb(232, 230, 228);
+  border-radius: 5px;
+  cursor: pointer;
+
+}
